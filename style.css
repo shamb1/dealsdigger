@@ -8,12 +8,28 @@ body{
     
 }
 .header{
-    background-color: #990011;
-    color:white;
+    /* background-color: #990011;
+    color:white; */
     height: 5.5rem;
     display: flex;
     align-items: center;
     border-bottom-left-radius: 1rem;
+
+    background: linear-gradient(0deg,#e93f33 0,#f09038 70%);
+    background-color: rgba(0, 0, 0, 0);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-image: linear-gradient(0deg, rgb(233, 63, 51) 0px, rgb(240, 144, 56) 70%);
+    background-size: auto;
+    background-origin: padding-box;
+    background-clip: border-box;
+  color: #fff;
+  font-weight: 600;
+  line-height: 20px;
+  border-radius: 0 0 0 15px;
+  text-shadow: 0 2px 2px #bf0d00;
     
 }
 #logo{
@@ -32,11 +48,13 @@ body{
 }
 .link{
    text-decoration: none;
-   color: #990011;
+   color: rgb(0, 0, 0);
    background-color:#FCF6F5;
-   border: 2px solid yellow;
-   border-radius: 2rem;
+   border-radius: 1rem;
    padding: 0.5rem;
+   text-shadow: 0 2px 2px #ffffff;
+
+
 }
 
 .page{
@@ -97,13 +115,29 @@ body{
 }
 
 .footer{
-    background-color: #990011;
-    color: white;
+    /* background-color: #990011;
+    color: white; */
     height: 5.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 1rem;
     border-top-right-radius: 1rem;
+
+    background: linear-gradient(0deg,#e93f33 0,#f09038 70%);
+    background-color: rgba(0, 0, 0, 0);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-image: linear-gradient(0deg, rgb(233, 63, 51) 0px, rgb(240, 144, 56) 70%);
+    background-size: auto;
+    background-origin: padding-box;
+    background-clip: border-box;
+  color: #fff;
+  font-weight: 600;
+  line-height: 20px;
+  border-radius: 0 0 0 15px;
+  text-shadow: 0 2px 2px #bf0d00;
 
 }
