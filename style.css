@@ -1,7 +1,8 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 body{
-        font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
         margin: 0px auto;
         width: 100%;
         background-color: #FCF6F5;
@@ -64,16 +65,23 @@ body{
 #search{
     border: 2px solid #FFBE7B;
     border-radius: 10px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     width: 50px;
     height: 57px;
     margin-left: 10px;
+    border-radius:50px;
+   
     
-}
+       }
+#search:hover{
+    cursor:pointer;
+   
+            }
 #searchicon{
     width: 35px;
     height: 35px;
-}
+    
+          }
 
 .offers{
     border: 2px solid #3BB103;
@@ -88,12 +96,13 @@ body{
     align-items: center;
     justify-content: center;
     
-}
+        }
 
 #searchinput[type="text"]
-{  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-style: italic;
-    font-size:24px;
+{  font-family: 'Poppins', sans-serif;
+   padding-left:1rem;
+   padding-top:2px;
+    font-size:17px;
 }
 
 .footer{
@@ -106,4 +115,7 @@ body{
     margin-top: 1rem;
     border-top-right-radius: 1rem;
 
-}
+        }
+
+  
+  
