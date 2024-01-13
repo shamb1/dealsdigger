@@ -1,31 +1,11 @@
 
-*{
-  margin-top:10px;
-  padding: 0;
-}
-body{
-  font-family: Arial, sans-serif;
-  height:100vh;
-  display:flexbox;
-  justify-content: center;
-  align-items: center;
-  background: #1daf;
 
-}
-.header {
-    background-color: #f8f8f8;
-    
-  }
-  .navigation {
-    display: flex;
-    align-items: center;
-  }
 body{
-  margin: 0;
+  margin: 0px;
+  background-color: aqua;
 }
 .header-main {
     background-color: #ffffff;
-
   }
 
   
@@ -43,7 +23,6 @@ body{
   }
 
   #hbtn a{
-        color: rgb(0, 0, 0);
         font-size:x-large;
         text-decoration: none;
   }
@@ -66,6 +45,18 @@ body{
     font-size:x-large;
     transition: background-color 1s ease; 
     color: #000000;
+  }
+
+  .header-button2 {
+    border-radius: 10px;
+    padding: 8px 18px;
+    display: block;
+    margin-right: 50px;
+    text-decoration: none;
+    font-size:x-large;
+    transition: background-color 1s ease; 
+    color: #000000;
+    margin-top: 0px;
   }
   #hbtn{
     display: flex;
@@ -117,21 +108,22 @@ button {
     overflow: hidden;
 }
 img {
-  width: 50%;
-  border: dashed;
-  height: auto;
+  margin: 10px;
+  
 }
 
 .container-child {
-  position: absolute;
-  top: 30%;
-  bottom:30%;
-  left: 40%;
+  height: 15rem;
+  background-image:url("images/hot-deal.png") ;
   
-  transform: translate(-50%, -50%);
+  
+ 
+
+  
+  
   background-color: rgba(255, 255, 255, 0.7);
-  padding: 0px;
-  text-align: cnter;
+  
+  text-align: center;
 }
 
 .box{
@@ -166,7 +158,7 @@ img {
 
 .lab{
   height: 30px;
-  display: flexbox;
+  text-decoration: none;
   cursor:pointer;
   padding:10px 20px;
   background: #fff;
