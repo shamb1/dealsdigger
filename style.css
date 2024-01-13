@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 *{
   margin-top:10px;
   padding: 0;
@@ -19,13 +19,13 @@ body{
   .navigation {
     display: flex;
     align-items: center;
-=======
+  }
 body{
   margin: 0;
 }
 .header-main {
     background-color: #ffffff;
->>>>>>> 256d4c9a3b1b6d2076569bc6e384a692fa71de85
+
   }
 
   
@@ -117,7 +117,7 @@ button {
     overflow: hidden;
 }
 img {
-  width: 100%;
+  width: 50%;
   border: dashed;
   height: auto;
 }
