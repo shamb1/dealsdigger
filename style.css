@@ -110,24 +110,19 @@ button {
 }
 img {
   margin: 10px;
-  
-}
+  }
 
 .container-child {
-  height: 15rem;
-  background-image:url("images/hot-deal.png");
-  
+  height: 15rem;  
   display: flex;
   justify-content: center;
   flex-direction: column;
-  
-  
-
-  
-  
   background-color: rgba(255, 255, 255, 0.7);
-  
   text-align: center;
+  margin: 20px;
+  padding: 25px;
+  border-radius: 25px;
+
 }
 
 .box{
@@ -144,7 +139,7 @@ img {
   box-shadow: 0 10px 25px rgba(0,0,0,0.3);
 }
 .box:hover input{
-  width:400px;
+  width:600px;
 }
 .box input{
   width:0;
@@ -153,7 +148,6 @@ img {
   font-weight: 500;
   transition: 0.8s;
   background: transparent;
-
 }
 
 #img1{
