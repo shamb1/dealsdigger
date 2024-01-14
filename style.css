@@ -106,6 +106,7 @@ button {
 .container{
   position: relative;
     overflow: hidden;
+    
 }
 img {
   margin: 10px;
@@ -115,7 +116,9 @@ img {
 .container-child {
   height: 15rem;
   background-image:url("images/hot-deal.png") ;
-  
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   
   
 
