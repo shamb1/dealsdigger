@@ -195,3 +195,7 @@ button {
   border-radius: 30px;
   justify-content:space-evenly;
 }
+.child img{
+  width: 200px;
+  height: 200px;
+}
