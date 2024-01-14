@@ -2,7 +2,6 @@
 
 body{
   margin: 0px;
-  background-image: "images/pexel.jpg";
 }
 .header-main {
     background-color: #ffffff;
@@ -43,7 +42,7 @@ body{
     margin-right: 50px;
     text-decoration: none;
     font-size:x-large;
-    transition: background-color 1s ease; 
+    transition: 0.3s ease; 
     color: #000000;
   }
 
@@ -54,7 +53,7 @@ body{
     margin-right: 50px;
     text-decoration: none;
     font-size:x-large;
-    transition: background-color 1s ease; 
+    transition:  0.3s ease; 
     color: #000000;
     margin-top: 0px;
   }
@@ -108,21 +107,40 @@ button {
     overflow: hidden;
     
 }
-img {
-  margin: 10px;
+
+
+  .background img{ 
+    display: block;
+    filter: brightness(40%);
+    width: 80rem;
+    border-radius: 25px;
+    height: 25rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+
+
+
   }
 
 .container-child {
   height: 15rem;  
+  position: absolute;
+  bottom:11%;
+  left:25%;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  background-color: rgba(255, 255, 255, 0.7);
+  /* background-color: rgba(255, 255, 255, 0.7); */
   text-align: center;
   margin: 20px;
   padding: 25px;
   border-radius: 25px;
 
+}
+.container-child h3{
+  color:white;
+  font-size: xx-large;
 }
 
 .box{
@@ -137,13 +155,11 @@ img {
   align-items: center;
   box-shadow: 0 10px 25px rgba(0,0,0,0.3);
 }
-.box:hover input{
-  width:500px;
-  }
+
 
 .box input{
   height: 35px;
-  width:0;
+ width: 100%;
   outline:none;
   border:none;
   font-size: large;
