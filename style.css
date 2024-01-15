@@ -4,8 +4,7 @@ body{
         margin: 0px auto;
         width: 100%;
         background-color: #FCF6F5;
-    
-}
+    }
 
 .header-main {
     background-color: #ffffff;
@@ -89,23 +88,7 @@ body{
   
 /* ///////// */
   
-  /* body {
-    font-family: Arial, sans-serif;
-}
 
-.search-container {
-    display: flex;
-    margin: 20px;
-}
-
-#searchInput {
-    flex: 1;
-    padding: 8px;
-}
-
-button {
-    padding: 8px 16px;
-} */
 .container{
   position: relative;
     overflow: hidden;
@@ -143,8 +126,14 @@ button {
 
 }
 .container-child h3{
+  opacity: 80%;
+  transition: opacity 2s;
   color:white;
   font-size: xx-large;
+}
+.container-child h3:hover{
+  opacity: 100%;
+  
 }
 
 .box{
@@ -153,11 +142,17 @@ button {
   margin-left: auto;
   margin-right: auto;
   display: flex;
+  opacity: 80%;
+  transition: opacity 0.3s;
   padding:10px 20px;
   background: #fff;
   border-radius: 30px;
   align-items: center;
   box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+.box:hover{
+  opacity: 100%;
+
 }
 
 
@@ -190,6 +185,7 @@ button {
 .container2{
   display: flex;
   cursor:pointer;
+  
   padding:10px 20px;
   
   border-radius: 30px;
@@ -198,4 +194,12 @@ button {
 .child img{
   width: 200px;
   height: 200px;
+}
+.item{
+  opacity: 80%;
+  transition: opacity 0.1s;
+}
+.item:hover{
+  opacity: 100%;
+
 }
